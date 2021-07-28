@@ -1,0 +1,735 @@
+[DEBUG] [2021-07-26 13:13:41,054 +0300] - Proxy host not provided
+[DEBUG] [2021-07-26 13:13:41,061 +0300] - Base url:'https://saas.whitesourcesoftware.com' 
+[INFO] [2021-07-26 13:13:41,123 +0300[ - UnifiedAgent version (pluginVersion) : 21.6.3
+[INFO] [2021-07-26 13:13:41,157 +0300[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+whiteSourceFolderPath=/Users/vitalbatyr/Projects/empty/.ws/temp
+userKey=******
+projectTag=
+projectName=empty
+productName=WS-CLI
+offline=true
+includes=**/*.c,**/*.cc,**/*.cp,**/*.cpp,**/*.cxx,**/*.c\+\+,**/*.h,**/*.hh,**/*.hpp,**/*.hxx,**/*.h\+\+,**/*.m,**/*.mm,**/*.pch,**/*.c#,**/*.cs,**/*.csharp,**/*.go,**/*.goc,**/*.js,**/*.pl,**/*.plx,**/*.pm,**/*.ph,**/*.cgi,**/*.fcgi,**/*.pod,**/*.psgi,**/*.al,**/*.perl,**/*.t,**/*.pl6,**/*.p6m,**/*.p6l,**/*.pm6,**/*.nqp,**/*.6pl,**/*.6pm,**/*.p6,**/*.php,**/*.py,**/*.rb,**/*.swift,**/*.java,**/*.clj,**/*.cljx,**/*.cljs,**/*.cljc,**/*.jar,**/*.egg,**/*.dll,**/*.tar.gz,**/*.tgz,**/*.zip,**/*.whl,**/*.gem,**/*.apk,**/*.air,**/*.dmg,**/*.exe,**/*.gem,**/*.gzip,**/*.msi,**/*.nupkg,**/*.swc,**/*.swf,**/*.tar.bz2,**/*.pkg.tar.xz,**/*.(u)?deb,**/*.(a)?rpm
+fileSystemScan=false
+excludes=.ws/**,**/node_modules/**,**/src/test/**,**/testdata/**,**/vendor/**
+configFilePath=DEFAULT
+apiKey=******
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#showProgressBar=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#log.level=info
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceUpdate=false
+#forceCheckAllDependencies=false
+#failErrorLevel=DEFAULT
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#checkPolicies=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.ivy.resolveDependencies=false
+#ant.ivy.ignoredConfigurations=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=true
+
+##### cabal #####
+#haskell.runPreStep=false
+#haskell.resolveDependencies=true
+#haskell.ignoreSourceFiles=true
+#haskell.ignorePreStepErrors=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scanContainers=false
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+#followSymbolicLinks=true
+#case.sensitive.glob=false
+
+##### go #####
+go.resolveDependencies=false
+go.modules.resolveDependencies=true
+#go.modules.removeDuplicateDependencies=true
+#go.modules.includeTestDependencies=false
+#go.modules.ignoreSourceFiles=true
+#go.ignoreSourceFiles=true
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+gradle.aggregateModules=true
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.innerModulesAsDependencies=true
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=true
+#gradle.excludeModules=
+#gradle.downloadMissingDependencies=true
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+maven.aggregateModules=true
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=true
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+npm.identifyByNameAndVersion=true
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=true
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=true
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.removeDuplicateDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=true
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.user=
+#scm.url=
+#scm.tag=
+#scm.repositoriesFile=
+#scm.ppk=
+#scm.pass=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[WARN] [2021-07-26 13:13:41,983 +0300[ - Ivy cache '/Users/vitalbatyr/.ivy2/cache' not found
+[DEBUG] [2021-07-26 13:13:42,172 +0300[ - Available processors (cores): 	8
+Free memory (Mb): 	197
+Max memory (Mb): 	3641
+Total memory (Mb): 	492
+Used memory (Mb): 	294
+
+[INFO] [2021-07-26 13:13:42,186 +0300[ - Starting analysis
+[INFO] [2021-07-26 13:13:42,186 +0300[ - Scanning directories [/Users/vitalbatyr/Projects/empty] for package dependencies (may take a few minutes)
+[INFO] [2021-07-26 13:13:42,186 +0300[ - Included file types: **/*.c,**/*.cc,**/*.cp,**/*.cpp,**/*.cxx,**/*.c\+\+,**/*.h,**/*.hh,**/*.hpp,**/*.hxx,**/*.h\+\+,**/*.m,**/*.mm,**/*.pch,**/*.c#,**/*.cs,**/*.csharp,**/*.go,**/*.goc,**/*.js,**/*.pl,**/*.plx,**/*.pm,**/*.ph,**/*.cgi,**/*.fcgi,**/*.pod,**/*.psgi,**/*.al,**/*.perl,**/*.t,**/*.pl6,**/*.p6m,**/*.p6l,**/*.pm6,**/*.nqp,**/*.6pl,**/*.6pm,**/*.p6,**/*.php,**/*.py,**/*.rb,**/*.swift,**/*.java,**/*.clj,**/*.cljx,**/*.cljs,**/*.cljc,**/*.jar,**/*.egg,**/*.dll,**/*.tar.gz,**/*.tgz,**/*.zip,**/*.whl,**/*.gem,**/*.apk,**/*.air,**/*.dmg,**/*.exe,**/*.gem,**/*.gzip,**/*.msi,**/*.nupkg,**/*.swc,**/*.swf,**/*.tar.bz2,**/*.pkg.tar.xz,**/*.(u)?deb,**/*.(a)?rpm
+[INFO] [2021-07-26 13:13:42,187 +0300[ - Excluded file types: .ws/**,**/node_modules/**,**/src/test/**,**/testdata/**,**/vendor/**
+[INFO] [2021-07-26 13:13:42,192 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2021-07-26 13:13:42,192 +0300[ - Scanning /Users/vitalbatyr/Projects/empty
+[DEBUG] [2021-07-26 13:13:42,202 +0300[ - File/Folder Excluded: node_modules
+[DEBUG] [2021-07-26 13:13:42,205 +0300[ - File/Folder Excluded: .ws
+[DEBUG] [2021-07-26 13:13:42,214 +0300[ - Dependency file found location: /Users/vitalbatyr/Projects/empty/package.json
+[INFO] [2021-07-26 13:13:42,260 +0300[ - Attempting to resolve dependencies
+[INFO] [2021-07-26 13:13:42,261 +0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2021-07-26 13:13:42,283 +0300[ - File/Folder Excluded: node_modules
+[DEBUG] [2021-07-26 13:13:42,285 +0300[ - File/Folder Excluded: .ws
+[DEBUG] [2021-07-26 13:13:42,287 +0300[ - FilesFrom: JSDependencyResolver, Dependency file found location: /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,327 +0300[ - top folders found:
+[DEBUG] [2021-07-26 13:13:42,327 +0300[ - +- /Users/vitalbatyr/Projects/empty
+[DEBUG] [2021-07-26 13:13:42,328 +0300[ - |  +- /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,330 +0300[ - Finishing reduce dependencies
+[INFO] [2021-07-26 13:13:42,330 +0300[ - Trying to resolve NPM dependencies
+[INFO] [2021-07-26 13:13:42,330 +0300[ - topFolder = /Users/vitalbatyr/Projects/empty
+[DEBUG] [2021-07-26 13:13:42,330 +0300[ - topFolder = /Users/vitalbatyr/Projects/empty
+[INFO] [2021-07-26 13:13:42,331 +0300[ - Both package-lock.json and yarn.lock were found, performing NPM dependency resolution based
+[DEBUG] [2021-07-26 13:13:42,705 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,708 +0300[ - JSDependencyResolver - lockFileResolution - Start
+[DEBUG] [2021-07-26 13:13:42,714 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,714 +0300[ - Resolving file: /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,714 +0300[ - NpmLockCollector - collectDependencies - Start, file:/Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,715 +0300[ - parsing the package-lock.json file, found at /Users/vitalbatyr/Projects/empty
+[DEBUG] [2021-07-26 13:13:42,718 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,859 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/package.json
+[DEBUG] [2021-07-26 13:13:42,859 +0300[ - isLockfileVersion2: true
+[DEBUG] [2021-07-26 13:13:42,964 +0300[ - isLockfileVersion2: true
+[DEBUG] [2021-07-26 13:13:42,973 +0300[ - NpmLockCollector - collectDependencies - End
+[DEBUG] [2021-07-26 13:13:42,990 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/lodash/package.json
+[DEBUG] [2021-07-26 13:13:43,009 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/next/package.json
+[DEBUG] [2021-07-26 13:13:43,019 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/https-browserify/package.json
+[DEBUG] [2021-07-26 13:13:43,027 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/etag/package.json
+[DEBUG] [2021-07-26 13:13:43,044 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-html-parser/package.json
+[DEBUG] [2021-07-26 13:13:43,056 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/he/package.json
+[DEBUG] [2021-07-26 13:13:43,064 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pnp-webpack-plugin/package.json
+[DEBUG] [2021-07-26 13:13:43,076 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/ts-pnp/package.json
+[DEBUG] [2021-07-26 13:13:43,084 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/caniuse-lite/package.json
+[DEBUG] [2021-07-26 13:13:43,099 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/use-subscription/package.json
+[DEBUG] [2021-07-26 13:13:43,108 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/util/package.json
+[DEBUG] [2021-07-26 13:13:43,121 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-typed-array/package.json
+[DEBUG] [2021-07-26 13:13:43,131 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/has-symbols/package.json
+[DEBUG] [2021-07-26 13:13:43,149 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/available-typed-arrays/package.json
+[DEBUG] [2021-07-26 13:13:43,161 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/es-abstract/package.json
+[DEBUG] [2021-07-26 13:13:43,170 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/unbox-primitive/package.json
+[DEBUG] [2021-07-26 13:13:43,182 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/has-bigints/package.json
+[DEBUG] [2021-07-26 13:13:43,194 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/which-boxed-primitive/package.json
+[DEBUG] [2021-07-26 13:13:43,201 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-bigint/package.json
+[DEBUG] [2021-07-26 13:13:43,211 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-boolean-object/package.json
+[DEBUG] [2021-07-26 13:13:43,218 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-number-object/package.json
+[DEBUG] [2021-07-26 13:13:43,227 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-callable/package.json
+[DEBUG] [2021-07-26 13:13:43,238 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/string.prototype.trimstart/package.json
+[DEBUG] [2021-07-26 13:13:43,244 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/has/package.json
+[DEBUG] [2021-07-26 13:13:43,250 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/object-inspect/package.json
+[DEBUG] [2021-07-26 13:13:43,256 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/object.assign/package.json
+[DEBUG] [2021-07-26 13:13:43,262 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-regex/package.json
+[DEBUG] [2021-07-26 13:13:43,268 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-negative-zero/package.json
+[DEBUG] [2021-07-26 13:13:43,278 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-string/package.json
+[DEBUG] [2021-07-26 13:13:43,289 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/es-to-primitive/package.json
+[DEBUG] [2021-07-26 13:13:43,300 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-symbol/package.json
+[DEBUG] [2021-07-26 13:13:43,307 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-date-object/package.json
+[DEBUG] [2021-07-26 13:13:43,318 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/string.prototype.trimend/package.json
+[DEBUG] [2021-07-26 13:13:43,326 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/foreach/package.json
+[DEBUG] [2021-07-26 13:13:43,335 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/which-typed-array/package.json
+[DEBUG] [2021-07-26 13:13:43,343 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/function-bind/package.json
+[DEBUG] [2021-07-26 13:13:43,352 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-arguments/package.json
+[DEBUG] [2021-07-26 13:13:43,359 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-generator-function/package.json
+[DEBUG] [2021-07-26 13:13:43,364 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/vm-browserify/package.json
+[DEBUG] [2021-07-26 13:13:43,370 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stream-browserify/package.json
+[DEBUG] [2021-07-26 13:13:43,377 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/readable-stream/package.json
+[DEBUG] [2021-07-26 13:13:43,384 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/watchpack/package.json
+[DEBUG] [2021-07-26 13:13:43,390 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/graceful-fs/package.json
+[DEBUG] [2021-07-26 13:13:43,407 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/glob-to-regexp/package.json
+[DEBUG] [2021-07-26 13:13:43,417 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react-is/package.json
+[DEBUG] [2021-07-26 13:13:43,425 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@next/react-refresh-utils/package.json
+[DEBUG] [2021-07-26 13:13:43,432 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/ast-types/package.json
+[DEBUG] [2021-07-26 13:13:43,439 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/querystring-es3/package.json
+[DEBUG] [2021-07-26 13:13:43,449 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/image-size/package.json
+[DEBUG] [2021-07-26 13:13:43,455 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/queue/package.json
+[DEBUG] [2021-07-26 13:13:43,466 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/assert/package.json
+[DEBUG] [2021-07-26 13:13:43,479 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-nan/package.json
+[DEBUG] [2021-07-26 13:13:43,489 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/call-bind/package.json
+[DEBUG] [2021-07-26 13:13:43,498 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/get-intrinsic/package.json
+[DEBUG] [2021-07-26 13:13:43,509 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/define-properties/package.json
+[DEBUG] [2021-07-26 13:13:43,515 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/object-keys/package.json
+[DEBUG] [2021-07-26 13:13:43,520 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/object-is/package.json
+[DEBUG] [2021-07-26 13:13:43,528 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/es6-object-assign/package.json
+[DEBUG] [2021-07-26 13:13:43,535 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/assert/node_modules/util/package.json
+[DEBUG] [2021-07-26 13:13:43,541 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/encoding/package.json
+[DEBUG] [2021-07-26 13:13:43,547 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/encoding/node_modules/iconv-lite/package.json
+[DEBUG] [2021-07-26 13:13:43,552 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/safer-buffer/package.json
+[DEBUG] [2021-07-26 13:13:43,558 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/cssnano-simple/package.json
+[DEBUG] [2021-07-26 13:13:43,567 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/cssnano-preset-simple/package.json
+[DEBUG] [2021-07-26 13:13:43,576 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/string_decoder/package.json
+[DEBUG] [2021-07-26 13:13:43,585 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/safe-buffer/package.json
+[DEBUG] [2021-07-26 13:13:43,590 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/os-browserify/package.json
+[DEBUG] [2021-07-26 13:13:43,595 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/process/package.json
+[DEBUG] [2021-07-26 13:13:43,604 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-zlib/package.json
+[DEBUG] [2021-07-26 13:13:43,609 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pako/package.json
+[DEBUG] [2021-07-26 13:13:43,620 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@hapi/accept/package.json
+[DEBUG] [2021-07-26 13:13:43,629 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@hapi/boom/package.json
+[DEBUG] [2021-07-26 13:13:43,634 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@hapi/hoek/package.json
+[DEBUG] [2021-07-26 13:13:43,641 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/get-orientation/package.json
+[DEBUG] [2021-07-26 13:13:43,647 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stream-parser/package.json
+[DEBUG] [2021-07-26 13:13:43,661 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stream-parser/node_modules/debug/package.json
+[DEBUG] [2021-07-26 13:13:43,668 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stream-parser/node_modules/ms/package.json
+[DEBUG] [2021-07-26 13:13:43,673 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/raw-body/package.json
+[DEBUG] [2021-07-26 13:13:43,679 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/bytes/package.json
+[DEBUG] [2021-07-26 13:13:43,682 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/http-errors/package.json
+[DEBUG] [2021-07-26 13:13:43,690 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/statuses/package.json
+[DEBUG] [2021-07-26 13:13:43,695 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/toidentifier/package.json
+[DEBUG] [2021-07-26 13:13:43,700 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/depd/package.json
+[DEBUG] [2021-07-26 13:13:43,705 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/setprototypeof/package.json
+[DEBUG] [2021-07-26 13:13:43,714 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/iconv-lite/package.json
+[DEBUG] [2021-07-26 13:13:43,726 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/unpipe/package.json
+[DEBUG] [2021-07-26 13:13:43,738 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stream-http/package.json
+[DEBUG] [2021-07-26 13:13:43,744 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/builtin-status-codes/package.json
+[DEBUG] [2021-07-26 13:13:43,751 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/xtend/package.json
+[DEBUG] [2021-07-26 13:13:43,755 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/postcss/package.json
+[DEBUG] [2021-07-26 13:13:43,761 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/nanoid/package.json
+[DEBUG] [2021-07-26 13:13:43,766 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/postcss/node_modules/source-map/package.json
+[DEBUG] [2021-07-26 13:13:43,769 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react-refresh/package.json
+[DEBUG] [2021-07-26 13:13:43,778 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/jest-worker/package.json
+[DEBUG] [2021-07-26 13:13:43,791 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@types/node/package.json
+[DEBUG] [2021-07-26 13:13:43,797 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/merge-stream/package.json
+[DEBUG] [2021-07-26 13:13:43,802 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/jest-worker/node_modules/supports-color/package.json
+[DEBUG] [2021-07-26 13:13:43,807 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/has-flag/package.json
+[DEBUG] [2021-07-26 13:13:43,811 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@next/env/package.json
+[DEBUG] [2021-07-26 13:13:43,818 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/buffer/package.json
+[DEBUG] [2021-07-26 13:13:43,822 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/ieee754/package.json
+[DEBUG] [2021-07-26 13:13:43,831 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/base64-js/package.json
+[DEBUG] [2021-07-26 13:13:43,840 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@next/react-dev-overlay/package.json
+[DEBUG] [2021-07-26 13:13:43,849 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/anser/package.json
+[DEBUG] [2021-07-26 13:13:43,856 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/data-uri-to-buffer/package.json
+[DEBUG] [2021-07-26 13:13:43,861 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/shell-quote/package.json
+[DEBUG] [2021-07-26 13:13:43,868 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/strip-ansi/package.json
+[DEBUG] [2021-07-26 13:13:43,872 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/ansi-regex/package.json
+[DEBUG] [2021-07-26 13:13:43,878 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@next/react-dev-overlay/node_modules/chalk/package.json
+[DEBUG] [2021-07-26 13:13:43,888 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/supports-color/package.json
+[DEBUG] [2021-07-26 13:13:43,893 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/ansi-styles/package.json
+[DEBUG] [2021-07-26 13:13:43,899 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/color-convert/package.json
+[DEBUG] [2021-07-26 13:13:43,907 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/color-name/package.json
+[DEBUG] [2021-07-26 13:13:43,917 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/code-frame/package.json
+[DEBUG] [2021-07-26 13:13:43,924 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/highlight/package.json
+[DEBUG] [2021-07-26 13:13:43,936 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/helper-validator-identifier/package.json
+[DEBUG] [2021-07-26 13:13:43,949 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stacktrace-parser/package.json
+[DEBUG] [2021-07-26 13:13:43,955 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stacktrace-parser/node_modules/type-fest/package.json
+[DEBUG] [2021-07-26 13:13:43,963 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/classnames/package.json
+[DEBUG] [2021-07-26 13:13:43,968 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/platform/package.json
+[DEBUG] [2021-07-26 13:13:43,974 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/css.escape/package.json
+[DEBUG] [2021-07-26 13:13:43,980 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@next/react-dev-overlay/node_modules/source-map/package.json
+[DEBUG] [2021-07-26 13:13:43,990 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/whatwg-url/package.json
+[DEBUG] [2021-07-26 13:13:43,996 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/lodash.sortby/package.json
+[DEBUG] [2021-07-26 13:13:44,002 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/webidl-conversions/package.json
+[DEBUG] [2021-07-26 13:13:44,008 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/tr46/package.json
+[DEBUG] [2021-07-26 13:13:44,016 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/punycode/package.json
+[DEBUG] [2021-07-26 13:13:44,020 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/crypto-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,026 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/create-ecdh/package.json
+[DEBUG] [2021-07-26 13:13:44,031 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/bn.js/package.json
+[DEBUG] [2021-07-26 13:13:44,035 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/create-hash/package.json
+[DEBUG] [2021-07-26 13:13:44,041 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/md5.js/package.json
+[DEBUG] [2021-07-26 13:13:44,047 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/hash-base/package.json
+[DEBUG] [2021-07-26 13:13:44,051 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/cipher-base/package.json
+[DEBUG] [2021-07-26 13:13:44,057 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/sha.js/package.json
+[DEBUG] [2021-07-26 13:13:44,061 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/ripemd160/package.json
+[DEBUG] [2021-07-26 13:13:44,065 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/inherits/package.json
+[DEBUG] [2021-07-26 13:13:44,080 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-cipher/package.json
+[DEBUG] [2021-07-26 13:13:44,087 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-aes/package.json
+[DEBUG] [2021-07-26 13:13:44,097 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/buffer-xor/package.json
+[DEBUG] [2021-07-26 13:13:44,108 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-des/package.json
+[DEBUG] [2021-07-26 13:13:44,114 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/des.js/package.json
+[DEBUG] [2021-07-26 13:13:44,119 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/evp_bytestokey/package.json
+[DEBUG] [2021-07-26 13:13:44,124 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/diffie-hellman/package.json
+[DEBUG] [2021-07-26 13:13:44,127 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/miller-rabin/package.json
+[DEBUG] [2021-07-26 13:13:44,134 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/randombytes/package.json
+[DEBUG] [2021-07-26 13:13:44,142 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/randomfill/package.json
+[DEBUG] [2021-07-26 13:13:44,147 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/create-hmac/package.json
+[DEBUG] [2021-07-26 13:13:44,153 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/public-encrypt/package.json
+[DEBUG] [2021-07-26 13:13:44,170 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-sign/package.json
+[DEBUG] [2021-07-26 13:13:44,179 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-sign/node_modules/bn.js/package.json
+[DEBUG] [2021-07-26 13:13:44,185 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/elliptic/package.json
+[DEBUG] [2021-07-26 13:13:44,190 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/hmac-drbg/package.json
+[DEBUG] [2021-07-26 13:13:44,195 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/minimalistic-assert/package.json
+[DEBUG] [2021-07-26 13:13:44,203 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/hash.js/package.json
+[DEBUG] [2021-07-26 13:13:44,207 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/brorand/package.json
+[DEBUG] [2021-07-26 13:13:44,212 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/minimalistic-crypto-utils/package.json
+[DEBUG] [2021-07-26 13:13:44,222 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-rsa/package.json
+[DEBUG] [2021-07-26 13:13:44,236 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserify-rsa/node_modules/bn.js/package.json
+[DEBUG] [2021-07-26 13:13:44,241 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/parse-asn1/package.json
+[DEBUG] [2021-07-26 13:13:44,253 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/asn1.js/package.json
+[DEBUG] [2021-07-26 13:13:44,260 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pbkdf2/package.json
+[DEBUG] [2021-07-26 13:13:44,265 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/prop-types/package.json
+[DEBUG] [2021-07-26 13:13:44,269 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/prop-types/node_modules/react-is/package.json
+[DEBUG] [2021-07-26 13:13:44,281 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/next/node_modules/@babel/runtime/package.json
+[DEBUG] [2021-07-26 13:13:44,285 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/regenerator-runtime/package.json
+[DEBUG] [2021-07-26 13:13:44,290 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/timers-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,294 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/setimmediate/package.json
+[DEBUG] [2021-07-26 13:13:44,299 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chokidar/package.json
+[DEBUG] [2021-07-26 13:13:44,305 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/anymatch/package.json
+[DEBUG] [2021-07-26 13:13:44,313 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/picomatch/package.json
+[DEBUG] [2021-07-26 13:13:44,316 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/fsevents/package.json
+[DEBUG] [2021-07-26 13:13:44,321 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/glob-parent/package.json
+[DEBUG] [2021-07-26 13:13:44,333 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/readdirp/package.json
+[DEBUG] [2021-07-26 13:13:44,339 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-glob/package.json
+[DEBUG] [2021-07-26 13:13:44,344 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-extglob/package.json
+[DEBUG] [2021-07-26 13:13:44,350 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/normalize-path/package.json
+[DEBUG] [2021-07-26 13:13:44,362 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/braces/package.json
+[DEBUG] [2021-07-26 13:13:44,369 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/fill-range/package.json
+[DEBUG] [2021-07-26 13:13:44,374 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/to-regex-range/package.json
+[DEBUG] [2021-07-26 13:13:44,386 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-number/package.json
+[DEBUG] [2021-07-26 13:13:44,394 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-binary-path/package.json
+[DEBUG] [2021-07-26 13:13:44,402 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/binary-extensions/package.json
+[DEBUG] [2021-07-26 13:13:44,407 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@next/polyfill-module/package.json
+[DEBUG] [2021-07-26 13:13:44,413 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/tty-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,420 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/styled-jsx/package.json
+[DEBUG] [2021-07-26 13:13:44,426 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/string-hash/package.json
+[DEBUG] [2021-07-26 13:13:44,432 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/loader-utils/package.json
+[DEBUG] [2021-07-26 13:13:44,438 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/big.js/package.json
+[DEBUG] [2021-07-26 13:13:44,443 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/json5/package.json
+[DEBUG] [2021-07-26 13:13:44,448 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/minimist/package.json
+[DEBUG] [2021-07-26 13:13:44,453 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/emojis-list/package.json
+[DEBUG] [2021-07-26 13:13:44,458 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stylis-rule-sheet/package.json
+[DEBUG] [2021-07-26 13:13:44,467 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/types/package.json
+[DEBUG] [2021-07-26 13:13:44,474 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/types/node_modules/lodash/package.json
+[DEBUG] [2021-07-26 13:13:44,481 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/to-fast-properties/package.json
+[DEBUG] [2021-07-26 13:13:44,488 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/esutils/package.json
+[DEBUG] [2021-07-26 13:13:44,496 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/babel-plugin-syntax-jsx/package.json
+[DEBUG] [2021-07-26 13:13:44,500 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/convert-source-map/package.json
+[DEBUG] [2021-07-26 13:13:44,506 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/convert-source-map/node_modules/safe-buffer/package.json
+[DEBUG] [2021-07-26 13:13:44,512 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/stylis/package.json
+[DEBUG] [2021-07-26 13:13:44,521 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/source-map/package.json
+[DEBUG] [2021-07-26 13:13:44,528 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/constants-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,536 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chalk/package.json
+[DEBUG] [2021-07-26 13:13:44,541 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chalk/node_modules/ansi-styles/package.json
+[DEBUG] [2021-07-26 13:13:44,549 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chalk/node_modules/color-convert/package.json
+[DEBUG] [2021-07-26 13:13:44,554 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chalk/node_modules/color-name/package.json
+[DEBUG] [2021-07-26 13:13:44,559 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/escape-string-regexp/package.json
+[DEBUG] [2021-07-26 13:13:44,564 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chalk/node_modules/supports-color/package.json
+[DEBUG] [2021-07-26 13:13:44,569 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/chalk/node_modules/has-flag/package.json
+[DEBUG] [2021-07-26 13:13:44,575 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/find-cache-dir/package.json
+[DEBUG] [2021-07-26 13:13:44,581 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/package.json
+[DEBUG] [2021-07-26 13:13:44,585 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/node_modules/find-up/package.json
+[DEBUG] [2021-07-26 13:13:44,590 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/node_modules/path-exists/package.json
+[DEBUG] [2021-07-26 13:13:44,596 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/node_modules/locate-path/package.json
+[DEBUG] [2021-07-26 13:13:44,603 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/node_modules/p-locate/package.json
+[DEBUG] [2021-07-26 13:13:44,606 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/node_modules/p-limit/package.json
+[DEBUG] [2021-07-26 13:13:44,615 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/pkg-dir/node_modules/p-try/package.json
+[DEBUG] [2021-07-26 13:13:44,622 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/commondir/package.json
+[DEBUG] [2021-07-26 13:13:44,629 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/make-dir/package.json
+[DEBUG] [2021-07-26 13:13:44,634 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/make-dir/node_modules/semver/package.json
+[DEBUG] [2021-07-26 13:13:44,642 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/package.json
+[DEBUG] [2021-07-26 13:13:44,647 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/stream-http/package.json
+[DEBUG] [2021-07-26 13:13:44,652 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/stream-http/node_modules/inherits/package.json
+[DEBUG] [2021-07-26 13:13:44,656 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/to-arraybuffer/package.json
+[DEBUG] [2021-07-26 13:13:44,665 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/path-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,671 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/console-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,676 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/tty-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,680 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/url/package.json
+[DEBUG] [2021-07-26 13:13:44,686 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/url/node_modules/punycode/package.json
+[DEBUG] [2021-07-26 13:13:44,694 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/url/node_modules/querystring/package.json
+[DEBUG] [2021-07-26 13:13:44,705 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/buffer/package.json
+[DEBUG] [2021-07-26 13:13:44,711 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/isarray/package.json
+[DEBUG] [2021-07-26 13:13:44,717 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/util/package.json
+[DEBUG] [2021-07-26 13:13:44,722 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/inherits/package.json
+[DEBUG] [2021-07-26 13:13:44,734 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/punycode/package.json
+[DEBUG] [2021-07-26 13:13:44,743 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/readable-stream/package.json
+[DEBUG] [2021-07-26 13:13:44,752 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/readable-stream/node_modules/inherits/package.json
+[DEBUG] [2021-07-26 13:13:44,758 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/util-deprecate/package.json
+[DEBUG] [2021-07-26 13:13:44,764 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/core-util-is/package.json
+[DEBUG] [2021-07-26 13:13:44,773 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/process-nextick-args/package.json
+[DEBUG] [2021-07-26 13:13:44,785 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/readable-stream/node_modules/string_decoder/package.json
+[DEBUG] [2021-07-26 13:13:44,795 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/safe-buffer/package.json
+[DEBUG] [2021-07-26 13:13:44,803 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/domain-browser/package.json
+[DEBUG] [2021-07-26 13:13:44,814 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/assert/package.json
+[DEBUG] [2021-07-26 13:13:44,822 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/assert/node_modules/util/package.json
+[DEBUG] [2021-07-26 13:13:44,844 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/assert/node_modules/inherits/package.json
+[DEBUG] [2021-07-26 13:13:44,852 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/stream-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,858 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-libs-browser/node_modules/stream-browserify/node_modules/inherits/package.json
+[DEBUG] [2021-07-26 13:13:44,870 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/events/package.json
+[DEBUG] [2021-07-26 13:13:44,884 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/browserslist/package.json
+[DEBUG] [2021-07-26 13:13:44,893 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/escalade/package.json
+[DEBUG] [2021-07-26 13:13:44,904 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-releases/package.json
+[DEBUG] [2021-07-26 13:13:44,910 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/colorette/package.json
+[DEBUG] [2021-07-26 13:13:44,915 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/electron-to-chromium/package.json
+[DEBUG] [2021-07-26 13:13:44,923 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/domain-browser/package.json
+[DEBUG] [2021-07-26 13:13:44,929 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/native-url/package.json
+[DEBUG] [2021-07-26 13:13:44,934 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/querystring/package.json
+[DEBUG] [2021-07-26 13:13:44,938 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/path-browserify/package.json
+[DEBUG] [2021-07-26 13:13:44,942 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/p-limit/package.json
+[DEBUG] [2021-07-26 13:13:44,945 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/yocto-queue/package.json
+[DEBUG] [2021-07-26 13:13:44,951 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/node-fetch/package.json
+[DEBUG] [2021-07-26 13:13:44,956 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react/package.json
+[DEBUG] [2021-07-26 13:13:44,960 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/loose-envify/package.json
+[DEBUG] [2021-07-26 13:13:44,967 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/js-tokens/package.json
+[DEBUG] [2021-07-26 13:13:44,971 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/object-assign/package.json
+[DEBUG] [2021-07-26 13:13:44,975 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react-dom/package.json
+[DEBUG] [2021-07-26 13:13:44,979 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/scheduler/package.json
+[DEBUG] [2021-07-26 13:13:44,985 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react-select/package.json
+[DEBUG] [2021-07-26 13:13:44,989 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/css/package.json
+[DEBUG] [2021-07-26 13:13:44,992 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/babel-plugin-emotion/package.json
+[DEBUG] [2021-07-26 13:13:44,996 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/find-root/package.json
+[DEBUG] [2021-07-26 13:13:44,999 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/helper-module-imports/package.json
+[DEBUG] [2021-07-26 13:13:45,005 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/helper-module-imports/node_modules/@babel/types/package.json
+[DEBUG] [2021-07-26 13:13:45,009 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/babel-plugin-macros/package.json
+[DEBUG] [2021-07-26 13:13:45,013 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/resolve/package.json
+[DEBUG] [2021-07-26 13:13:45,017 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-core-module/package.json
+[DEBUG] [2021-07-26 13:13:45,020 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/path-parse/package.json
+[DEBUG] [2021-07-26 13:13:45,027 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/cosmiconfig/package.json
+[DEBUG] [2021-07-26 13:13:45,030 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/cosmiconfig/node_modules/path-type/package.json
+[DEBUG] [2021-07-26 13:13:45,034 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/cosmiconfig/node_modules/parse-json/package.json
+[DEBUG] [2021-07-26 13:13:45,039 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/json-parse-even-better-errors/package.json
+[DEBUG] [2021-07-26 13:13:45,043 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/error-ex/package.json
+[DEBUG] [2021-07-26 13:13:45,047 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/is-arrayish/package.json
+[DEBUG] [2021-07-26 13:13:45,050 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/lines-and-columns/package.json
+[DEBUG] [2021-07-26 13:13:45,055 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/yaml/package.json
+[DEBUG] [2021-07-26 13:13:45,062 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@types/parse-json/package.json
+[DEBUG] [2021-07-26 13:13:45,068 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/import-fresh/package.json
+[DEBUG] [2021-07-26 13:13:45,072 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/parent-module/package.json
+[DEBUG] [2021-07-26 13:13:45,079 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/callsites/package.json
+[DEBUG] [2021-07-26 13:13:45,083 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/resolve-from/package.json
+[DEBUG] [2021-07-26 13:13:45,087 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/babel-plugin-emotion/node_modules/source-map/package.json
+[DEBUG] [2021-07-26 13:13:45,093 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/memoize-one/package.json
+[DEBUG] [2021-07-26 13:13:45,102 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@babel/runtime/package.json
+[DEBUG] [2021-07-26 13:13:45,107 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react-input-autosize/package.json
+[DEBUG] [2021-07-26 13:13:45,112 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/react-transition-group/package.json
+[DEBUG] [2021-07-26 13:13:45,117 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/dom-helpers/package.json
+[DEBUG] [2021-07-26 13:13:45,121 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/dom-helpers/node_modules/csstype/package.json
+[DEBUG] [2021-07-26 13:13:45,124 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/cache/package.json
+[DEBUG] [2021-07-26 13:13:45,129 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/weak-memoize/package.json
+[DEBUG] [2021-07-26 13:13:45,132 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/utils/package.json
+[DEBUG] [2021-07-26 13:13:45,136 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/sheet/package.json
+[DEBUG] [2021-07-26 13:13:45,139 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/stylis/package.json
+[DEBUG] [2021-07-26 13:13:45,146 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/core/package.json
+[DEBUG] [2021-07-26 13:13:45,150 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/serialize/package.json
+[DEBUG] [2021-07-26 13:13:45,158 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/csstype/package.json
+[DEBUG] [2021-07-26 13:13:45,164 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/unitless/package.json
+[DEBUG] [2021-07-26 13:13:45,168 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/hash/package.json
+[DEBUG] [2021-07-26 13:13:45,172 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/@emotion/memoize/package.json
+[DEBUG] [2021-07-26 13:13:45,179 +0300[ - shasum not found in file /Users/vitalbatyr/Projects/empty/node_modules/sass/package.json
+[DEBUG] [2021-07-26 13:13:45,183 +0300[ - JSDependencyResolver - lockFileResolution - End
+[INFO] [2021-07-26 13:13:45,214 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2021-07-26 13:13:45,218 +0300[ - total resolved projects =1
+[INFO] [2021-07-26 13:13:45,220 +0300[ - Skipping scanning directories for matching source/binary files - controlled by flags: ignoreSourceFiles and fileSystemScan
+[INFO] [2021-07-26 13:13:45,221 +0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2021-07-26 13:13:45,221 +0300[ - Finished analyzing Files
+[DEBUG] [2021-07-26 13:13:45,221 +0300[ - Available processors (cores): 	8
+Free memory (Mb): 	553
+Max memory (Mb): 	3641
+Total memory (Mb): 	722
+Used memory (Mb): 	169
+
+[INFO] [2021-07-26 13:13:45,628 +0300[ - Initializing WhiteSource Client
+[DEBUG] [2021-07-26 13:13:45,628 +0300[ - Setting project tags
+[INFO] [2021-07-26 13:13:45,636 +0300[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2021-07-26 13:13:45,678 +0300[ - Generating offline update request
+[INFO] [2021-07-26 13:13:45,683 +0300[ - UpdateType offline set to OVERRIDE 
+[INFO] [2021-07-26 13:13:45,792 +0300[ - Offline request generated successfully at /Users/vitalbatyr/Projects/empty/.ws/temp/whitesource/update-request.txt
+[DEBUG] [2021-07-26 13:13:46,370 +0300[ - Process finished with exit code SUCCESS (Offline request generated successfully at /Users/vitalbatyr/Projects/empty/.ws/temp/whitesource/update-request.txt)
+[INFO] [2021-07-26 13:13:46,376 +0300[ - Log files are found at: /Users/vitalbatyr/Projects/empty/.ws/temp/ua_logs/Mon-Jul-26-2021-13.13.40
+[INFO] [2021-07-26 13:13:46,382 +0300[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.218               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:02.953               310 total dependencies (305 unique)
+   NPM                                               COMPLETED                  00:00:02.884               310 total dependencies (305 unique)
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.066               0 source/binary files
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:03.237
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+
