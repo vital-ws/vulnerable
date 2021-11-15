@@ -1,5 +1,5 @@
 {
-"settingsInheritedFrom": "vital-ws/whitesource-config@master",
+"settingsInheritedFrom": "vital-ws/whitesource-config",
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
