@@ -1,8 +1,9 @@
 {
+"settingsInheritedFrom": "vital-ws/whitesource-config",
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "projectToken": "",
+    "projectToken": "", 
     "baseBranches": []
   },
   "checkRunSettings": {

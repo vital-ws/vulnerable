@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### WhiteSource Log Repository
 
-## Getting Started
+#### This repository contains your WhiteSource scanner log files for manual scans.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+---
+In order to trigger the manual scans, a file called **scan.json** needs to be pushed to the whitesource-config repo. The **scan.json** file contains a list of repositories to scan:
 ```
+{
+  "repositories": [
+    {
+      "fullName": "orgName1/repoName1",
+      "branchName": "main"
+    }
+  ]
+}
+```
+<br><br>
+**NOTE:**
+* The repository list is limited to 10. If there are more than 10, no repositories will be scanned, and a check run saying so will be created.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* If a branch name is not specified - the default branch will be scanned.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* For each repository in the list, a scan will be triggered (in the latest commit of the specified branch), including the creation of the security check run.
