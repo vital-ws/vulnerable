@@ -1,4 +1,5 @@
 {
     "WhiteSource Advise.BaseBranch": "newMain",
-    "WhiteSource Advise.Diff.BaseBranch": "newMain"
+    "WhiteSource Advise.Diff.BaseBranch": "newMain",
+    "WhiteSource Advise.Diff.NotifyOnNewOS Vulnerabilities": false
 }

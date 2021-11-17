@@ -1,0 +1,2 @@
+WhiteSource: new vulnerabilities were found in this commit that. If you want to cancel the commit just close this file.
+If you want to proceed and commit anyway type “Y” and close this file:
