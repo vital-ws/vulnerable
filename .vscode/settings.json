@@ -1,3 +1,4 @@
 {
-    "WhiteSource Advise.BaseBranch": "main"
+    "WhiteSource Advise.BaseBranch": "newMain",
+    "WhiteSource Advise.Diff.BaseBranch": "newMain"
 }
