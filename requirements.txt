@@ -5,7 +5,7 @@ HTMLParser==0.0.2
 PIL==1.1.6
 Pillow==8.3.2
 PyAudio==0.2.11
-PyAutoGUI==0.9.50
+PyAutoGUI==0.9.53
 PyPDF2==1.26.0
 SpeechRecognition==3.8.1
 beautifulsoup4==4.9.1
