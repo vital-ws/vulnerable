@@ -13,6 +13,15 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW"
+  },
+  "remediateSettings": {
+  
+    "workflowRules": {
+      "enabled": true,
+      "minVulnerabilitySeverity":"LOW"
+    },
+    "enableRenovate": true,
+    "platformCommit": true
   }
   
 }
